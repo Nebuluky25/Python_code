@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # URL del API del modelo
-LLM_API_URL = "http://192.168.0.104:1234/v1/chat/completions"
+LLM_API_URL = "Introduce la url correspondiente"
 
 def env_prompt(prompt):
     headers = {"Content-Type": "application/json"}
